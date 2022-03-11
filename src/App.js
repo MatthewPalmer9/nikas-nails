@@ -1,6 +1,10 @@
+import Navbar from "./components/Navbar/Navbar.jsx";
+
 function App() {
   return (
-    <>Hello from app</>
+    <>
+      <Navbar />
+    </>
   );
 }
 
