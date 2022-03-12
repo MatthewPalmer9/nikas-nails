@@ -1,0 +1,77 @@
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), to(rgba(255, 255, 255, 0.15))), url("./header-bg.png") center no-repeat;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(255, 255, 255, 0.15)), url("./header-bg.png") center no-repeat;
+}
+
+.hero .hero-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20rem;
+  max-width: 130rem;
+}
+
+.hero .hero-container h1, .hero .hero-container p, .hero .hero-container button {
+  font-family: "Inter", sans-serif;
+}
+
+.hero .hero-container h1, .hero .hero-container p {
+  margin: 0;
+  text-shadow: 0 0.2rem 0.15rem rgba(0, 0, 0, 0.5);
+}
+
+.hero .hero-container h1 {
+  font-size: 5.2rem;
+  color: #f783ac;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+}
+
+.hero .hero-container p {
+  font-size: 3.2rem;
+  color: white;
+  margin-bottom: 4.4rem;
+  font-weight: 500;
+}
+
+.hero .hero-container button {
+  width: 44rem;
+  height: 5rem;
+  border: none;
+  font-size: 2.4rem;
+  font-weight: 700;
+  background-color: rgba(247, 131, 172, 0.2);
+  -webkit-box-shadow: 0 0 0 0.15rem rgba(247, 131, 172, 0.8);
+          box-shadow: 0 0 0 0.15rem rgba(247, 131, 172, 0.8);
+  text-shadow: 0 0.1rem 0.2rem black;
+  color: white;
+  border-radius: 0.5rem;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.hero .hero-container button:hover {
+  cursor: pointer;
+  background-color: rgba(247, 131, 172, 0.6);
+}
+/*# sourceMappingURL=Hero.css.map */
