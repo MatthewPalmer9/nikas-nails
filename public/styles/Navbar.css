@@ -4,7 +4,7 @@
   display: flex;
   height: 8rem;
   width: 100%;
-  position: relative;
+  position: fixed;
   z-index: 20;
 }
 
@@ -92,12 +92,17 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 8rem;
+  height: 6rem;
   width: 100%;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.2);
+  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 1rem 0.5rem rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 1rem 0.5rem rgba(0, 0, 0, 0.05);
+  -webkit-backdrop-filter: blur(1rem);
+          backdrop-filter: blur(1rem);
   z-index: 20;
 }
 
@@ -268,12 +273,6 @@
   }
   100% {
     color: white;
-  }
-}
-
-@media (max-width: 70em) {
-  .brand {
-    font-size: 2.4rem !important;
   }
 }
 /*# sourceMappingURL=Navbar.css.map */

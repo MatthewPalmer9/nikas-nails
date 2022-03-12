@@ -28,11 +28,21 @@
       -ms-flex-align: center;
           align-items: center;
   margin-top: 20rem;
-  max-width: 130rem;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.22);
+  padding: 3.2rem 0;
 }
 
-.hero .hero-container h1, .hero .hero-container p, .hero .hero-container button {
+.hero .hero-container h1, .hero .hero-container p {
   font-family: "Inter", sans-serif;
+  letter-spacing: -0.1rem;
+  text-align: center;
+}
+
+.hero .hero-container button {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  letter-spacing: 0.2rem;
 }
 
 .hero .hero-container h1, .hero .hero-container p {
