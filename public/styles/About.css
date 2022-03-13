@@ -1,4 +1,45 @@
 .about-section {
-  height: 100vh;
+  background-color: #fff5f5;
+}
+
+.about-section .about-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  padding: 12rem 0;
+  max-width: 120rem;
+  gap: 5.6rem;
+}
+
+.about-section .about-content .right-side {
+  border-radius: 1rem;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(247, 131, 172, 0.25)), to(rgba(247, 131, 172, 0.4))), url("../nika.jpg");
+  background-image: linear-gradient(to right, rgba(247, 131, 172, 0.25), rgba(247, 131, 172, 0.4)), url("../nika.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  -webkit-box-shadow: 0 2rem 3rem 9 black;
+          box-shadow: 0 2rem 3rem 9 black;
+}
+
+.about-section .about-content .left-side p {
+  padding-top: 3.2rem;
+  font-size: 2rem;
+  line-height: 1.6;
+}
+
+.about-section .header-title {
+  font-size: 6.4rem;
+  font-family: "Abril Fatface", sans-serif;
+  letter-spacing: 0.5rem;
+}
+
+.about-section .header-title span {
+  color: #f783ac;
 }
 /*# sourceMappingURL=About.css.map */

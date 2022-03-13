@@ -14,8 +14,8 @@
   display: flex;
   -webkit-animation: menuShow;
           animation: menuShow;
-  -webkit-animation-duration: 0.65s;
-          animation-duration: 0.65s;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
   left: 0%;
   height: 100vh;
   top: 0;
@@ -92,7 +92,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 6rem;
+  height: 6.4rem;
   width: 100%;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;

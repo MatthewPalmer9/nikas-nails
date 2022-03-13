@@ -8,7 +8,7 @@
     .main-menu.active {
         display: flex;
         animation: menuShow;
-        animation-duration: 0.65s;
+        animation-duration: 0.5s;
         left: 0%;
         height: 100vh;
         top: 0;
@@ -69,7 +69,7 @@
     nav {
         display: flex;
         align-items: center;
-        height: 6rem;
+        height: 6.4rem;
         width: 100%;
         justify-content: space-between;
         background-color: rgba(0, 0, 0, 0.2);

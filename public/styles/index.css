@@ -6,6 +6,7 @@
 
 body {
   font-family: "Inter", sans-serif;
+  color: #212529;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -22,4 +23,5 @@ code {
 
 .container {
   max-width: 130rem;
+  margin: 0 auto;
 }
