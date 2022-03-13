@@ -1,0 +1,36 @@
+@media (max-width: 60em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 54em) {
+  html {
+    font-size: 50%;
+  }
+  .hero .hero-container p {
+    margin-bottom: 4rem;
+  }
+  .hero .hero-container button {
+    font-size: 2.8rem;
+  }
+}
+
+@media (max-width: 47em) {
+  .hero .hero-container {
+    margin-top: 20rem;
+  }
+  .hero .hero-container h1 {
+    font-size: 5.2rem;
+  }
+  .hero .hero-container p {
+    font-size: 2.6rem;
+  }
+}
+
+@media (max-width: 70em) {
+  .brand {
+    font-size: 2.4rem !important;
+  }
+}
+/*# sourceMappingURL=media.css.map */

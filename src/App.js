@@ -1,6 +1,12 @@
+import About from "./components/About/About";
+import Hero from "./components/Hero/Hero";
+
 function App() {
   return (
-    <>Hello from app</>
+    <>
+      <Hero />
+      <About />
+    </>
   );
 }
 
